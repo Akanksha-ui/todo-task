@@ -1,0 +1,57 @@
+.addtask_container {
+  text-align: center;
+  margin: 85px auto 10px;
+  background: #fff;
+  box-shadow: 3px 5px 12px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  max-width: 400px;
+  padding: 25px 45px 30px;
+}
+.addtask_container .input_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.addtask_container h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+}
+.addtask_container label {
+  font-size: 18px;
+  line-height: 19px;
+  color: #353535;
+  font-weight: 600;
+  text-align: left;
+  padding: 0px 0 13px;
+}
+.addtask_container input {
+  background: #f8fafd;
+  color: #111;
+  font-size: 13px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  height: 30px;
+}
+.button_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.button_wrapper button {
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 35px;
+  margin: 10px 0 0;
+  background: #0d47a1;
+  cursor: pointer;
+}
+
+.button_wrapper .back {
+  background: #d1d1d1;
+  color: #222;
+}

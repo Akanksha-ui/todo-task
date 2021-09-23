@@ -1,0 +1,105 @@
+.detail_container {
+  text-align: center;
+  margin: 85px auto 10px;
+  background: #fff;
+  box-shadow: 3px 5px 12px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  max-width: 750px;
+  padding: 20px 45px 30px;
+}
+
+.detail_container h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  margin: 15px 0;
+  border-spacing: 0;
+}
+.table thead th {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  background: #2a4c80;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px 10px;
+  border-bottom: none !important;
+  border: none;
+}
+
+.table tbody tr td {
+  padding: 15px 0 15px 10px;
+  font-size: 16px;
+  line-height: 15px;
+  color: #2e3b52;
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.edit_container {
+  text-align: center;
+}
+.edit_container .input_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.edit_container h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #333;
+}
+.edit_container label {
+  font-size: 18px;
+  line-height: 19px;
+  color: #353535;
+  font-weight: 600;
+  text-align: left;
+  padding: 0px 0 13px;
+}
+.edit_container input {
+  background: #f8fafd;
+  color: #111;
+  font-size: 13px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  height: 30px;
+}
+.delete,
+.edit {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: inherit;
+}
+
+.delete .MuiSvgIcon-root {
+  fill: rgb(143, 13, 13) !important;
+}
+
+.edit .MuiSvgIcon-root {
+  fill: #0d47a1 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .detail_container {
+    max-width: 450px;
+    padding: 20px 15px 30px;
+  }
+
+  .table thead th {
+    font-size: 14px;
+  }
+}
